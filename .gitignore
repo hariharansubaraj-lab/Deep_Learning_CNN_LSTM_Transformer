@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Datasets (downloaded automatically by torchvision)
+data/
+**/data/MNIST/
+*.ubyte
+*.ubyte.gz
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# System and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
